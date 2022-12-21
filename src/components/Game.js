@@ -1,14 +1,12 @@
-function Game() {
+function Game({ question }) {
     return (
       <>
         <div className="progress">
-          <div style={{ width: '50%' }} className="progress__inner"></div>
+          <div style={{ width: '30%' }} className="progress__inner"></div>
         </div>
-        <h1>When was Harry Potter born?</h1>
+        <h1>{question.title}</h1>
         <ul>
-          <li>July 31, 1980</li>
-          <li>August 31, 1980</li>
-          <li>July 30, 1980</li>
+          {question.variants.map(variant => <li key={variant}>{variant}</li>)}
         </ul>
       </>
     );

@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
-  align-items: center;
+  // align-items: center;
   justify-content: center;
   height: 100vh;
   background: {
@@ -16,12 +16,22 @@ body {
   }
 }
 
+#logo {
+  width: 45%;
+  margin: 0 auto;
+
+  img{
+    width: 100%;
+  }
+}
+
 .App {
   width: 500px;
   border-radius: 30px;
   padding: 40px;
   background-color: #fff;
   position: relative;
+  margin: 0 auto;
 
   .result {
     text-align: center;
