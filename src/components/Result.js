@@ -1,9 +1,12 @@
-function Result() {
+function Result({ correct, questionCount }) {
     return (
       <div className="result">
-        <img src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png" />
-        <h2>You have 3 right answers out of 10</h2>
-        <button>Try again</button>
+        <img src="./emblem.png" alt="Hogwarts emblem"/>
+        <h2>You have {correct} right answers out of {questionCount}</h2>
+        <a href="/">
+          <button>Try again</button>
+        </a>
+
       </div>
     );
   }
