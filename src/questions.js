@@ -1,11 +1,6 @@
 
 export const questions = [
     {
-      title: 'When was Harry Potter born?',
-      variants: ['July 31, 1980', 'August 31, 1980', 'July 30, 1980'],
-      correct: 0,
-    },
-    {
       title: 'What is the full name of Albus Dumbledore?',
       variants: ['Albus Percival Valentine Brian Dumbledore', 'Albus Percival Wulfric Brian Dumbledore', 'Albus Percival Wilburn Brian Dumbledore'],
       correct: 1,
@@ -13,6 +8,11 @@ export const questions = [
     {
       title: "What form does Ginny Weasley's patronus take?",
       variants: ['Horse', 'An otter', 'Deer'],
+      correct: 0,
+    },
+    {
+      title: 'What is the motto of the school of witchcraft and wizardry?',
+      variants: ['Never tickle a dragon', 'We teach children to stand up for themselves', 'Welcome to the best magic school'],
       correct: 0,
     },
     {
@@ -31,13 +31,13 @@ export const questions = [
       correct: 2,
     },
     {
-      title: 'Who has never taught a subject like Defense Against the Dark Arts?',
-      variants: ['Minerva McGonagall', 'Severus Snape', 'Remus Lupine'],
+      title: 'How is Bellatrix Lestrage related to Sirius Black?',
+      variants: ['Cousin', 'Sister', 'Niece'],
       correct: 0,
     },
     {
-      title: 'What position did Albus Dumbledore hold before he became Headmaster of Hogwarts?',
-      variants: ['Professor of transfiguration', 'Professor of Defense Against the Dark Arts', 'Potions professor'],
+      title: 'Who matched Harry at the Yule Ball?',
+      variants: ['Parvati Patil', 'Padma Patil', 'Polumna Lovegood'],
       correct: 0,
     },
     {
@@ -46,8 +46,8 @@ export const questions = [
       correct: 2,
     },
     {
-      title: 'How did Harry, Ron and Hermione get out of Gringotts Bank?',
-      variants: ['Drank a revolving potion and turned into other people', 'Riding a dragon', "They didn't break into the bank"],
+      title: 'With what spell was Harry able to defeat Voldemort?',
+      variants: ['Avada Kedavra', 'Expeliarmus', "Oblivion"],
       correct: 1,
     }
 
